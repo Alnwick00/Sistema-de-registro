@@ -15,3 +15,6 @@ Para ejecutar el sistema, debes poner:
 <p>git add + ("."->Mas de un archivo  "nombre del archivo"-> Un unico archivo)-> Agregar cambios al proyecto.
 <p>git commit -m "Mensaje"-> Guardar el estado del proyecto + mensaje. Agregar un "." antes del -m hace que el mensaje este presente en todo el proycto a diferencia de solo el archivo cambiado.
 <p>git push -> Envia los cambios realizados.
+<p>git diff -> Muestra los cambios realizados en el proyecto.
+<p>git restore --source "source extraida de git log" "nombre del archivo"->Regresar el archivo a una version anterior
+<p>Despues de utilizar git restore se tiene que poner git add, commit y push.
