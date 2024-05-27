@@ -18,3 +18,8 @@ Para ejecutar el sistema, debes poner:
 <p>git diff -> Muestra los cambios realizados en el proyecto.
 <p>git restore --source "source extraida de git log" "nombre del archivo"->Regresar el archivo a una version anterior
 <p>Despues de utilizar git restore se tiene que poner git add, commit y push.
+<p>git branch-> para ver la ramificaciones del proyeto.
+<p>git checkout -b "Nombre de la ramificacion"-> Para crear ramificacion.
+<p>git switch "Nombre"-> Cambiar entre ramificaciones.
+<p>git push origin "Nombre de la ramificacion"-> Cambiar el origen del push.
+<p>git mesh->Une diferentes ramas, se tiene que hacer como origen la rama a la que quieres agregarle. Y terminar con un git push origin "Rama actualizada".
